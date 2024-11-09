@@ -106,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\HP PC\Desktop\libs c++\boost -release - MT\boost_1_79_0;C:\Users\HP PC\Desktop\libs c++\cryptopp - release mt</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\libs c++\boost -release - MT\boost_1_79_0;D:\libs c++\cryptopp - release mt</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -114,10 +114,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\HP PC\Desktop\libs c++\boost -release - MT\boost_1_79_0\stage\lib;C:\Users\HP PC\Desktop\libs c++\cryptopp - release mt\Win32\Output\Release</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\libs c++\boost -release - MT\boost_1_79_0\stage\lib;D:\libs c++\cryptopp - release mt\Win32\Output\Release</AdditionalLibraryDirectories>
       <AdditionalDependencies>cryptlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <UACUIAccess>false</UACUIAccess>
-      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
